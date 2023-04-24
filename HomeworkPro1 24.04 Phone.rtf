@@ -1,0 +1,45 @@
+{\rtf1\ansi\ansicpg1251\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab560
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf0 package HomeworksPro.homework1;\
+\
+public class Phone \{\
+\
+    private int number;\
+    String model;\
+    double weight;\
+\
+    public Phone(int number, String model, double weight) \{\
+        this.number = number;\
+        this.model = model;\
+        this.weight = weight;\
+    \}\
+    void receiveCall()\{\
+\
+        System.out.println( "Ivanov is calling. Phone number  " + getNumber());\
+    \}\
+\
+    public int getNumber() \{\
+        return number;\
+    \}\
+\
+    public static void main(String[] args) \{\
+\
+        Phone phone1 = new Phone(567583, "iPhone 8", 120);\
+        Phone phone2 = new Phone(987654, "iPhone 12", 110);\
+        Phone phone3 = new Phone(234567, "Pixel 5", 115);\
+\
+        phone1.receiveCall();\
+        phone2.receiveCall();\
+        phone3.receiveCall();\
+\
+\
+    \}\
+\}\
+\
+}
