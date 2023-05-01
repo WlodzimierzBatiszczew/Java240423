@@ -15,6 +15,7 @@ public class SumCombinations1 {
             array1[i] = random.nextInt(1, 10);
             System.out.print(array1[i] + ", ");
         }
+
         int counterOfCombination = 0;
         int t = 0;
         for (int f = 0; f < array1.length - 1; f++) {
