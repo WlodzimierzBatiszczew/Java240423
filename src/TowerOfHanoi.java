@@ -2,6 +2,8 @@ package Lessons.Lesson17.task2;
 
 import java.util.Stack;
 
+// Итеративный способ
+
 public class TowerOfHanoi {
 
     static class Move {
@@ -36,6 +38,7 @@ public class TowerOfHanoi {
             }
         }
     }
+    //Рекурсивный способ
 
     public static void moveElement(char point1, char point2){
         System.out.println("move dick from " + point1 + " to " + point2);
